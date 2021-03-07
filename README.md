@@ -243,6 +243,16 @@ The module offers functions to analyse:
 * `hwmapping.generator` can be used to randomly generate `GeneratorSettings`.
 * `hwmapping.model` implements the (discretized) capabilities.
 
+# Important open-source software for this project
 
-
-
+* Kubernetes - https://kubernetes.io/
+* OpenFaaS - https://www.openfaas.com/
+* Docker - https://github.com/moby/moby
+* Tensorflow - https://www.tensorflow.org/
+* EdgeRun Project - https://github.com/edgerun
+  * [faas-sim](https://github.com/edgerun/faas-sim/tree/performance-degradation)
+  * [ether](https://github.com/edgerun/ether)
+  * [galileo](https://github.com/edgerun/galileo)
+  * [telemd](https://github.com/edgerun/telemd)
+* geneticalgorithm2 - https://github.com/PasaOpasen/geneticalgorithm2
+* DeepSpeech - https://github.com/mozilla/DeepSpeech
