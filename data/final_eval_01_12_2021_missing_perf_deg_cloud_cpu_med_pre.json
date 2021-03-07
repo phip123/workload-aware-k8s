@@ -1,0 +1,58 @@
+{
+  "cores": 8,
+  "seed": 1234,
+  "model_folder": "ml",
+  "device_folder": "final_devices",
+  "clustering_folder": "clustering",
+  "ga_results_folder": "reqs_cloud_cpu",
+  "solutions_folder": "solutions",
+  "benchmark": "first",
+  "percentage_of_nodes_to_scores": [
+    100
+  ],
+  "capability_weights": [
+    1,
+    1,
+    1
+  ],
+  "contention_weights": [
+    1,
+    1,
+    1
+  ],
+  "fet_weights": [
+    1,
+    1,
+    1
+  ],
+  "latency_weights": [
+    1,
+    1,
+    1
+  ],
+  "data_weights": [
+    1,
+    1,
+    1
+  ],
+  "durations": [
+    2000,
+    2000,
+    1
+  ],
+  "profiles": [
+    "mixed"
+  ],
+  "arrival_patterns": {
+    "speech-inference": "data/collections/collection_01_04_2021/arrival_patterns/req_pattern_speech-inference_sine_rps_100_period_50_duration_2000_ia_10_index_0.pkl",
+    "resnet50-training": "data/collections/collection_01_04_2021/arrival_patterns/req_pattern_resnet50-training_sine_rps_10_period_150_duration_2000_ia_10_index_0.pkl",
+    "resnet50-preprocessing": "data/collections/collection_01_04_2021/arrival_patterns/req_pattern_resnet50-preprocessing_sine_rps_10_period_75_duration_2000_ia_10_index_0.pkl",
+    "resnet50-inference": "data/collections/collection_01_04_2021/arrival_patterns/req_pattern_resnet50-inference_sine_rps_100_period_37.5_duration_2000_ia_10_index_0.pkl",
+    "mobilenet-inference": "data/collections/collection_01_04_2021/arrival_patterns/req_pattern_mobilenet-inference_sine_rps_100_period_25_duration_2000_ia_10_index_0.pkl"
+  },
+  "constant_rps": [
+    50,
+    50,
+    1
+  ]
+}

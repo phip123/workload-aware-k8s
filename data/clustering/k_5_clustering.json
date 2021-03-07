@@ -1,0 +1,14 @@
+{
+  "faas-workloads/python-pi": "0a",
+  "faas-workloads/tf-gpu": "3",
+  "faas-workloads/fio": "4",
+  "faas-workloads/resnet-inference-cpu": "0a",
+  "faas-workloads/resnet-inference-gpu": "0c",
+  "faas-workloads/speech-inference-tflite": "4",
+  "faas-workloads/speech-inference-gpu": "3",
+  "faas-workloads/resnet-training-gpu": "1",
+  "faas-workloads/resnet-training-cpu": "2",
+  "faas-workloads/mobilenet-inference-tpu": "0b",
+  "faas-workloads/mobilenet-inference-tflite": "0a",
+  "faas-workloads/resnet-preprocessing": "4"
+}

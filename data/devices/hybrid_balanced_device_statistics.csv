@@ -1,0 +1,11 @@
+device_type,percentage,count
+nuc,0.148,74
+xeoncpu,0.092,46
+xeongpu,0.06,30
+coral,0.08,40
+rockpi,0.106,53
+nano,0.084,42
+tx2,0.016,8
+nx,0.014,7
+rpi3,0.214,107
+rpi4,0.186,93
